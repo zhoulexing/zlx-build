@@ -1,14 +1,12 @@
-import { delay } from "roadhog-api-doc";
-import { user } from "./mock/user";
+const fs = require("fs");
+const path = require("path");
+const { delay } = require("roadhog-api-doc");
 
 const noProxy = process.env.NO_PROXY === "true";
-const proxy = {
-  "GET /api/userMsg": (req, res) => {
-      console.log(req.query);
-    const { password, username } = req.body;
-    const isOk = password === "888888" && username === "admin";
-    res.send({ status:  isOk ? "ok" : "error", type: "account"});
-  },
-  "GET /api/userList": user
-};
-export default noProxy ? {} : delay(proxy, 1000);
+const mock = {};
+const mockPath = path.resolve(__dirname, "./mock");
+fs.readdirSync(mockPath).forEach(file => {
+    Object.assign(mock, require(`${ mockPath }/${ file }`));
+});
+
+export default noProxy ? {} : delay(mock, 500);
