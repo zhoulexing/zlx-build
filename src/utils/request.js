@@ -27,12 +27,20 @@ function checkStatus(response) {
  * @return {promise}           
  */
 export default function request(url, options) {
-	const defaultOpt = {};
-	const newOpt = { ...defaultOpt, ...options };
-	newOpt.headers = {
-		Accept: "application/json",
-		...newOpt.headers
+	const defaultOpt = {
+		credentials: "include",
 	};
+	const newOpt = { ...defaultOpt, ...options };
+
+	if (newOpt.method === "POST" || newOpt.method === "PUT") {
+		newOpt.headers = {
+			Accept: "application/json",
+			"Content-Type": "application/json; charset=utf-8",
+			...newOptions.headers,
+		};
+		newOpt.body = JSON.stringify(newOpt.body);
+	}
+
 	return fetch(url, newOpt)
 		.then(checkStatus)
 		.then(parseJSON)

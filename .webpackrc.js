@@ -34,13 +34,13 @@ export default {
     ],
     ignoreMomentLocale: true,
     hash: true,
-    /*copy: [
-        { from: "", to: "" }
-    ],*/
-    proxy: {
-        "/api/*": {
-            target: "http://127.0.0.1:3000",
-            changeOrigin: true
-        }
-    }
+    // copy: [
+    //     { from: "", to: "" }
+    // ],
+    // proxy: {
+    //     "/api/*": {
+    //         target: "http://localhost:8000",
+    //         changeOrigin: true
+    //     }
+    // }
 }

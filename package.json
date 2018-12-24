@@ -3,9 +3,10 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "start": "cross-env PORT=9000 eslint=none roadhog dev",
+    "start": "cross-env PORT=9000 NO_PROXY=false eslint=none roadhog dev",
     "build": "cross-env eslint=none roadhog build",
-    "test:client": "mocha --compilers js:babel-core/register --recursive ./test/**/*.test.js --watch",
+    "test:mocha": "mocha --compilers js:babel-core/register --recursive ./test/**/*.mocha.js --watch",
+    "test:jest": "jest",
     "lint": "eslint --ext .js src test",
     "upload": "md-sync"
   },
@@ -33,16 +34,20 @@
     "babel-plugin-dva-hmr": "^0.4.1",
     "babel-plugin-dynamic-import-node-sync": "^2.0.1",
     "babel-plugin-import": "^1.8.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "chai": "^4.2.0",
     "chalk": "^2.4.1",
     "cross-env": "^5.2.0",
     "enzyme": "^3.8.0",
+    "jest": "^23.6.0",
     "md-sync": "^0.2.0",
     "mocha": "^5.2.0",
     "redbox-react": "^1.6.0",
     "redux-actions": "^2.6.4",
-    "roadhog": "^2.4.5"
+    "roadhog": "^2.4.5",
+    "roadhog-api-doc": "^1.1.2"
   }
 }

@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1545634113202" clover="3.2.0">
+  <project timestamp="1545634113202" name="All files">
+    <metrics statements="378" coveredstatements="0" conditionals="211" coveredconditionals="0" methods="77" coveredmethods="0" elements="666" coveredelements="0" complexity="0" loc="378" ncloc="378" packages="18" files="34" classes="34">
+      <package name="src">
+        <metrics statements="14" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="polyfill.js" path="G:\project\zlx-build\src\polyfill.js">
+          <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+        </file>
+        <file name="router.js" path="G:\project\zlx-build\src\router.js">
+          <metrics statements="11" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+        </file>
+        <file name="theme.js" path="G:\project\zlx-build\src\theme.js">
+          <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.common">
+        <metrics statements="8" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <file name="menu.js" path="G:\project\zlx-build\src\common\menu.js">
+          <metrics statements="8" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="50" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="51" count="0" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="57" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="58" count="0" type="stmt"/>
+          <line num="60" count="0" type="stmt"/>
+          <line num="64" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components.Authorized">
+        <metrics statements="105" coveredstatements="0" conditionals="52" coveredconditionals="0" methods="15" coveredmethods="0"/>
+        <file name="Authorized.js" path="G:\project\zlx-build\src\components\Authorized\Authorized.js">
+          <metrics statements="6" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="8" count="0" type="stmt"/>
+        </file>
+        <file name="AuthorizedRoute.js" path="G:\project\zlx-build\src\components\Authorized\AuthorizedRoute.js">
+          <metrics statements="8" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+        </file>
+        <file name="CheckPermissions.js" path="G:\project\zlx-build\src\components\Authorized\CheckPermissions.js">
+          <metrics statements="38" coveredstatements="0" conditionals="26" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="42" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="59" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="60" count="0" type="stmt"/>
+          <line num="61" count="0" type="stmt"/>
+          <line num="62" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="63" count="0" type="stmt"/>
+          <line num="65" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="66" count="0" type="stmt"/>
+          <line num="68" count="0" type="stmt"/>
+          <line num="70" count="0" type="stmt"/>
+          <line num="75" count="0" type="stmt"/>
+          <line num="76" count="0" type="stmt"/>
+        </file>
+        <file name="PromiseRender.js" path="G:\project\zlx-build\src\components\Authorized\PromiseRender.js">
+          <metrics statements="17" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+        </file>
+        <file name="Secured.js" path="G:\project\zlx-build\src\components\Authorized\Secured.js">
+          <metrics statements="17" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="29" count="0" type="stmt"/>
+        </file>
+        <file name="index.js" path="G:\project\zlx-build\src\components\Authorized\index.js">
+          <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+        </file>
+        <file name="renderAuthorize.js" path="G:\project\zlx-build\src\components\Authorized\renderAuthorize.js">
+          <metrics statements="11" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="9" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components.Exception">
+        <metrics statements="10" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <file name="index.js" path="G:\project\zlx-build\src\components\Exception\index.js">
+          <metrics statements="9" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+        </file>
+        <file name="typeConfig.js" path="G:\project\zlx-build\src\components\Exception\typeConfig.js">
+          <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components.GlobalHeader">
+        <metrics statements="15" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <file name="index.js" path="G:\project\zlx-build\src\components\GlobalHeader\index.js">
+          <metrics statements="15" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="48" count="0" type="stmt"/>
+          <line num="51" count="0" type="stmt"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="76" count="0" type="stmt"/>
+          <line num="77" count="0" type="stmt"/>
+          <line num="78" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components.NoticeIcon">
+        <metrics statements="10" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="G:\project\zlx-build\src\components\NoticeIcon\index.js">
+          <metrics statements="10" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components.PageHeader">
+        <metrics statements="48" coveredstatements="0" conditionals="54" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <file name="index.js" path="G:\project\zlx-build\src\components\PageHeader\index.js">
+          <metrics statements="48" coveredstatements="0" conditionals="54" coveredconditionals="0" methods="5" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="47" count="0" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="56" count="0" type="stmt"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="60" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="61" count="0" type="stmt"/>
+          <line num="65" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="66" count="0" type="stmt"/>
+          <line num="69" count="0" type="stmt"/>
+          <line num="78" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="79" count="0" type="stmt"/>
+          <line num="82" count="0" type="stmt"/>
+          <line num="85" count="0" type="stmt"/>
+          <line num="86" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="87" count="0" type="stmt"/>
+          <line num="89" count="0" type="stmt"/>
+          <line num="90" count="0" type="stmt"/>
+          <line num="91" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="92" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="115" count="0" type="stmt"/>
+          <line num="122" count="0" type="stmt"/>
+          <line num="123" count="0" type="stmt"/>
+          <line num="129" count="0" type="stmt"/>
+          <line num="130" count="0" type="stmt"/>
+          <line num="138" count="0" type="stmt"/>
+          <line num="139" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="140" count="0" type="stmt"/>
+          <line num="142" count="0" type="stmt"/>
+          <line num="159" count="0" type="stmt"/>
+          <line num="160" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="161" count="0" type="stmt"/>
+          <line num="162" count="0" type="cond" truecount="0" falsecount="2"/>
+        </file>
+      </package>
+      <package name="src.components.SiderMenu">
+        <metrics statements="63" coveredstatements="0" conditionals="37" coveredconditionals="0" methods="18" coveredmethods="0"/>
+        <file name="index.js" path="G:\project\zlx-build\src\components\SiderMenu\index.js">
+          <metrics statements="63" coveredstatements="0" conditionals="37" coveredconditionals="0" methods="18" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="47" count="0" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="55" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="58" count="0" type="stmt"/>
+          <line num="67" count="0" type="stmt"/>
+          <line num="70" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="71" count="0" type="stmt"/>
+          <line num="74" count="0" type="stmt"/>
+          <line num="75" count="0" type="stmt"/>
+          <line num="76" count="0" type="stmt"/>
+          <line num="78" count="0" type="stmt"/>
+          <line num="84" count="0" type="stmt"/>
+          <line num="85" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="86" count="0" type="stmt"/>
+          <line num="88" count="0" type="stmt"/>
+          <line num="118" count="0" type="stmt"/>
+          <line num="119" count="0" type="stmt"/>
+          <line num="120" count="0" type="stmt"/>
+          <line num="126" count="0" type="stmt"/>
+          <line num="127" count="0" type="cond" truecount="0" falsecount="3"/>
+          <line num="136" count="0" type="stmt"/>
+          <line num="137" count="0" type="stmt"/>
+          <line num="144" count="0" type="stmt"/>
+          <line num="145" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="146" count="0" type="stmt"/>
+          <line num="148" count="0" type="stmt"/>
+          <line num="149" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="151" count="0" type="stmt"/>
+          <line num="152" count="0" type="stmt"/>
+          <line num="154" count="0" type="stmt"/>
+          <line num="158" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="159" count="0" type="stmt"/>
+          <line num="161" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="162" count="0" type="stmt"/>
+          <line num="180" count="0" type="stmt"/>
+          <line num="182" count="0" type="stmt"/>
+          <line num="187" count="0" type="stmt"/>
+          <line num="188" count="0" type="stmt"/>
+          <line num="190" count="0" type="stmt"/>
+          <line num="191" count="0" type="stmt"/>
+          <line num="204" count="0" type="stmt"/>
+          <line num="205" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="206" count="0" type="stmt"/>
+          <line num="207" count="0" type="stmt"/>
+          <line num="209" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.layouts">
+        <metrics statements="8" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="LoginLayout.js" path="G:\project\zlx-build\src\layouts\LoginLayout.js">
+          <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+        </file>
+        <file name="PageHeaderLayout.js" path="G:\project\zlx-build\src\layouts\PageHeaderLayout.js">
+          <metrics statements="5" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.models">
+        <metrics statements="11" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <file name="example.js" path="G:\project\zlx-build\src\models\example.js">
+          <metrics statements="5" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="11" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+        </file>
+        <file name="global.js" path="G:\project\zlx-build\src\models\global.js">
+          <metrics statements="6" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="26" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.routes.DataSource">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="G:\project\zlx-build\src\routes\DataSource\index.js">
+          <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.routes.Desktop">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="G:\project\zlx-build\src\routes\Desktop\index.js">
+          <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.routes.Example">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="example2.js" path="G:\project\zlx-build\src\routes\Example\example2.js">
+          <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.routes.Exception">
+        <metrics statements="12" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="403.js" path="G:\project\zlx-build\src\routes\Exception\403.js">
+          <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+        </file>
+        <file name="404.js" path="G:\project\zlx-build\src\routes\Exception\404.js">
+          <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+        </file>
+        <file name="500.js" path="G:\project\zlx-build\src\routes\Exception\500.js">
+          <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.routes.Market">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="G:\project\zlx-build\src\routes\Market\index.js">
+          <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.routes.My">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="G:\project\zlx-build\src\routes\My\index.js">
+          <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.services">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <file name="example.js" path="G:\project\zlx-build\src\services\example.js">
+          <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.utils">
+        <metrics statements="60" coveredstatements="0" conditionals="34" coveredconditionals="0" methods="24" coveredmethods="0"/>
+        <file name="Authorized.js" path="G:\project\zlx-build\src\utils\Authorized.js">
+          <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+        </file>
+        <file name="authority.js" path="G:\project\zlx-build\src\utils\authority.js">
+          <metrics statements="2" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="2" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="6" count="0" type="stmt"/>
+        </file>
+        <file name="request.js" path="G:\project\zlx-build\src\utils\request.js">
+          <metrics statements="17" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="11" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+        </file>
+        <file name="util.js" path="G:\project\zlx-build\src\utils\util.js">
+          <metrics statements="36" coveredstatements="0" conditionals="28" coveredconditionals="0" methods="17" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="21" count="0" type="cond" truecount="0" falsecount="8"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+          <line num="43" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="51" count="0" type="stmt"/>
+          <line num="55" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="56" count="0" type="stmt"/>
+          <line num="58" count="0" type="stmt"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="60" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="61" count="0" type="stmt"/>
+          <line num="62" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="63" count="0" type="stmt"/>
+          <line num="65" count="0" type="stmt"/>
+          <line num="68" count="0" type="stmt"/>
+          <line num="69" count="0" type="stmt"/>
+          <line num="70" count="0" type="stmt"/>
+          <line num="71" count="0" type="stmt"/>
+          <line num="73" count="0" type="stmt"/>
+          <line num="75" count="0" type="stmt"/>
+          <line num="76" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="77" count="0" type="stmt"/>
+          <line num="80" count="0" type="stmt"/>
+          <line num="89" count="0" type="stmt"/>
+          <line num="90" count="0" type="stmt"/>
+          <line num="91" count="0" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

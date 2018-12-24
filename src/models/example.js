@@ -1,28 +1,35 @@
-import { getList } from "../services/example";
+import { getUserList, getUserMsg } from "../services/example";
 
 export default {
 
     namespace: "example",
 
     state: {
-        list: null
+        data: null
     },
 
     effects: {
-        *asyncRequest({ payload }, { call, put }) {
-            const result = yield call(getList, payload);
+        *getUserList({ payload }, { call, put }) {
+            const result = yield call(getUserList, payload);
             yield put({
-                type: "changeList",
-                payload: result.list
+                type: "changeState",
+                payload: result
+            });
+        },
+        *getUserMsg(_, { call, put }) {
+            const result = yield call(getUserMsg);
+            yield put({
+                type: "changeState",
+                payload: result
             });
         }
     },
 
     reducers: {
-        changeList(state, { payload }) {
+        changeState(state, { payload }) {
             return {
                 ...state,
-                list: payload
+                data: payload
             }
         }
     },

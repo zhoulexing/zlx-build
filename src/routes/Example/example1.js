@@ -29,6 +29,6 @@ export default class Example1 extends React.Component {
 
     handleAsyncRequest = () => {
         const { dispatch } = this.props;
-        dispatch({ type: "example/asyncRequest" });
+        dispatch({ type: "example/getUserMsg" });
     }
 }
