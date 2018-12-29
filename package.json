@@ -13,6 +13,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.0.0-beta.36",
     "antd": "^3.8.4",
+    "antd-theme-generator": "^1.1.5",
     "classnames": "^2.2.6",
     "dva": "^2.4.0",
     "dva-loading": "^2.0.5",

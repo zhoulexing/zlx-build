@@ -12,6 +12,7 @@ export default class Example1 extends React.Component {
         return (
             <div>
                 <Button type="primary" onClick={ this.handleAsyncRequest }>发送异步请求</Button>
+                <Button type="primary" onClick={ this.handleChangeColor }>换肤</Button>
                 <Row gutter={ 32 }>
                     <Col span={ 12 }>
                         <Skeleton loading={ loading.global } avatar paragraph={{ rows: 4 }} >
@@ -30,5 +31,10 @@ export default class Example1 extends React.Component {
     handleAsyncRequest = () => {
         const { dispatch } = this.props;
         dispatch({ type: "example/getUserMsg" });
+    }
+
+    handleChangeColor = () => {
+        const { dispatch } = this.props;
+        dispatch({ type: "example/changeColor", payload: "#000" });
     }
 }

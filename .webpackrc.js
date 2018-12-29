@@ -34,9 +34,9 @@ export default {
     ],
     ignoreMomentLocale: true,
     hash: true,
-    // copy: [
-    //     { from: "", to: "" }
-    // ],
+    copy: [
+        { from: "./src/assets/color.less", to: "./" }
+    ],
     // proxy: {
     //     "/api/*": {
     //         target: "http://localhost:8000",
