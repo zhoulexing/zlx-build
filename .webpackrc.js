@@ -1,4 +1,6 @@
 const path = require("path");
+const { TITLE } = require("./src/utils/constant");
+
 export default {
     entry: "./src/index.js",
     outputPath: path.resolve(__dirname, "client"),
@@ -13,7 +15,7 @@ export default {
     },
     html: {
         template: "./src/index.ejs",
-        title: "周某人",
+        title: TITLE,
         favicon: "./src/assets/images/favicon.ico"
     },
     extraBabelPlugins: [

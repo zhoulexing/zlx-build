@@ -1,8 +1,6 @@
 module.exports = {
     "GET /api/userMsg": (req, res) => {
-        const { password, username } = req.body;
-        const isOk = password === "888888" && username === "admin";
-        res.send({ status:  isOk ? "ok" : "error", type: "userMsg"});
+        res.send({ loginname: "admin", password: "123456" });
     },
     "GET /api/userList": [
         "付小小",
