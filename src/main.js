@@ -5,6 +5,7 @@ import store from './store';
 import i18n from "./i18n";
 import './element.js';
 import './index.less';
+// import './icons';
 
 Vue.config.productionTip = false;
 
