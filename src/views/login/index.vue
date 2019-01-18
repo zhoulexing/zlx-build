@@ -26,10 +26,9 @@
 </template>
 
 <script>
-import LangSelect from "components/LangSelect/index";
-
+import { mapState } from "vuex";
 export default {
-    name: "LoginLayout",
+    name: "Login",
     data() {
         const validateUsername = (rule, value, callback) => {
             if(value === "") {
@@ -48,18 +47,23 @@ export default {
                 username: [{ required: true, trigger: 'blur', validator: validateUsername }],
                 password: [{ required: true, trigger: 'blur', message: this.$t('login.message') }]
             },
-            loading: false
         }
     },
+
+    computed: mapState({
+        loading: state => state.global.loading,
+        success: state => state.login.success
+    }),
+
     methods: {
         handleLogin() {
             this.$refs.loginForm.validate(valid => {
                 if(valid) {
-                    
+                    this.$store.dispatch("doLogin",  { loginForm: this.loginForm, that: this });
                 }
             });
         }
-    }
+    },
 }
 </script>
 
@@ -72,7 +76,7 @@ export default {
         height: 100%;
     }
     .login-form {
-        width: 400px;
+        width: 300px;
     }
     .form-title {
         display: flex;

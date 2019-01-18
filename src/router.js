@@ -10,16 +10,22 @@ export const constantRouter = [
     },
     {
         path: "/login",
-        component: () => import("layouts/LoginLayout"),
+        component: () => import("views/login/index"),
     },
     {
         path: "/apps",
         component: () => import("layouts/BasicLayout"),
-        redirect: "/desktop",
+        redirect: "desktop",
+        children: [
+            {
+                path: "desktop",
+                component: () => import("views/desktop/index"),
+            }
+        ]
     },
     {
-        path: "/desktop",
-        component: () => import("views/desktop/index"),
+        path: "*",
+        redirect: "/login"
     }
 ];
 

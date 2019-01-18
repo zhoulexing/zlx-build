@@ -17,4 +17,6 @@ function loadModules() {
     return out;
 }
 
-export default new Vuex.Store(loadModules());
+export default new Vuex.Store({
+    modules: loadModules()
+});
