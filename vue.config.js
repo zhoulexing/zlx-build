@@ -19,6 +19,7 @@ module.exports = {
                 "views": resolve("./src/views"),
                 "modules": resolve("./src/modules"),
                 "utils": resolve("./src/utils"),
+                "assets": resolve("./src/assets")
             }
         }
     },
