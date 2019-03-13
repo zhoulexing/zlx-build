@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src/components/Authorized/CheckPermissions.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">src/components/Authorized</a> CheckPermissions.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/38</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/26</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/2</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/38</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js"><span class="cstat-no" title="statement not covered" >import React from "react";</span>
+<span class="cstat-no" title="statement not covered" >import { isPromise } from "utils/util";</span>
+<span class="cstat-no" title="statement not covered" >import PromiseRender from "./PromiseRender";</span>
+<span class="cstat-no" title="statement not covered" >import { CURRENT } from "./renderAuthorize";</span>
+&nbsp;
+&nbsp;
+/**
+ * 通用权限检查方法
+ * Common check permissions method
+ * @param { 权限判定 Permission judgment type string |array | Promise | Function } authority
+ * @param { 你的权限 Your permission description  type:string} currentAuthority
+ * @param { 通过的组件 Passing components } target
+ * @param { 未通过的组件 no pass components } Exception
+ */
+const <span class="fstat-no" title="function not covered" >checkPermissions = <span class="cstat-no" title="statement not covered" >(</span>authority, currentAuthority, target, Exception) =&gt; {</span>
+    // 没有权限默认查看所有 
+<span class="cstat-no" title="statement not covered" >    if(!authority) {</span>
+<span class="cstat-no" title="statement not covered" >        return target;</span>
+    }
+&nbsp;
+    // Array处理
+<span class="cstat-no" title="statement not covered" >    if(Array.isArray(authority)) {</span>
+<span class="cstat-no" title="statement not covered" >        if(authority.includes(currentAuthority)) {</span>
+<span class="cstat-no" title="statement not covered" >            return target;</span>
+        }
+<span class="cstat-no" title="statement not covered" >        if(Array.isArray(currentAuthority)) {</span>
+<span class="cstat-no" title="statement not covered" >            for(let i = 0, length = currentAuthority.length; i &lt; length; i++) {</span>
+                let item = <span class="cstat-no" title="statement not covered" >currentAuthority[i];</span>
+<span class="cstat-no" title="statement not covered" >                if(authority.includes(item)) {</span>
+<span class="cstat-no" title="statement not covered" >                    return target;</span>
+                }
+            }
+        }
+<span class="cstat-no" title="statement not covered" >        return Exception;</span>
+    }
+&nbsp;
+    // String处理
+<span class="cstat-no" title="statement not covered" >    if(typeof authority === "string") {</span>
+<span class="cstat-no" title="statement not covered" >        if(authority === currentAuthority) {</span>
+<span class="cstat-no" title="statement not covered" >            return target;</span>
+        }
+<span class="cstat-no" title="statement not covered" >        if(Array.isArray(currentAuthority)) {</span>
+<span class="cstat-no" title="statement not covered" >            for(let i = 0, length = currentAuthority.length; i &lt; length; i++) {</span>
+                let item = <span class="cstat-no" title="statement not covered" >currentAuthority[i];</span>
+<span class="cstat-no" title="statement not covered" >                if(authority.includes(item)) {</span>
+<span class="cstat-no" title="statement not covered" >                    return target;</span>
+                }
+            }
+        }
+<span class="cstat-no" title="statement not covered" >        return Exception;</span>
+    }
+&nbsp;
+    // Promise处理
+<span class="cstat-no" title="statement not covered" >    if(isPromise(authority)) {</span>
+<span class="cstat-no" title="statement not covered" >        return &lt;PromiseRender ok={ target } error={ Exception } promise={ authority }/&gt;;</span>
+    }
+&nbsp;
+    // Function处理
+<span class="cstat-no" title="statement not covered" >    if(typeof authority === "function") {</span>
+<span class="cstat-no" title="statement not covered" >        try {</span>
+            let bool = <span class="cstat-no" title="statement not covered" >authority(currentAuthority);</span>
+<span class="cstat-no" title="statement not covered" >            if(isPromise(bool)) {</span>
+<span class="cstat-no" title="statement not covered" >                return &lt;PromiseRender ok={ target } error={ Exception } promise={ bool }/&gt;;</span>
+            }
+<span class="cstat-no" title="statement not covered" >            if(bool) {</span>
+<span class="cstat-no" title="statement not covered" >                return target;</span>
+            }
+<span class="cstat-no" title="statement not covered" >            return Exception;</span>
+        } catch(error) {
+<span class="cstat-no" title="statement not covered" >            throw error;</span>
+        }
+    }
+}
+&nbsp;
+const <span class="fstat-no" title="function not covered" >check = <span class="cstat-no" title="statement not covered" >(</span>authority, target, Exception) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >    return checkPermissions(authority, CURRENT, target, Exception);</span>
+}
+&nbsp;
+export { checkPermissions };
+export default check; </pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Mon Dec 24 2018 14:48:32 GMT+0800 (中国标准时间)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>
