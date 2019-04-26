@@ -8,11 +8,12 @@ export default class Desktop extends Component {
         super();
         this.state = {
             type: 0,
+            isMove: false,
         }
     }
 
     render() {
-        const { type } = this.state;
+        const { type, isMove } = this.state;
         const mg = `-${type * 100}%`;
         return (
             <div>
@@ -35,6 +36,10 @@ export default class Desktop extends Component {
                         789
                     </div>
                 </div>
+                <div className={style.block}></div>
+
+                <div><Button onClick={() => { this.setState({ isMove: !isMove }) }}>动画</Button></div>
+                <div className={isMove ? style.block2 : style.block3}></div>
             </div>
         )
     }
