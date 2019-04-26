@@ -13,7 +13,7 @@ function checkStatus(response) {
 	}
 	notification.error({
 		message: `请求错误 ${response.status}: ${response.url}`,
-		description: statusText,
+		description: response.statusText,
 	});
 	const error = new Error(response.statusText);
 	error.response = response;
@@ -36,7 +36,7 @@ export default function request(url, options) {
 		newOpt.headers = {
 			Accept: "application/json",
 			"Content-Type": "application/json; charset=utf-8",
-			...newOptions.headers,
+			...newOpt.headers,
 		};
 		newOpt.body = JSON.stringify(newOpt.body);
 	}
