@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    transition: margin-left 1s cubic-bezier(.645, .045, .355, 1);
+    width: 100%;
+}
+.item {
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    flex-shrink: 0;
+    transition: opacity 1s ease 0s;
+    opacity: 1;
+}
+
+.default {
+    height: 0;
+    overflow: hidden;
+    opacity: 0; 
+}
