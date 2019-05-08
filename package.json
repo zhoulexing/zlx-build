@@ -1,0 +1,27 @@
+{
+  "name": "zlx-build",
+  "version": "1.0.0",
+  "description": "react: react-dva\r vue: vue-ele",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhoulexing/zlx-build.git"
+  },
+  "keywords": [
+    "react",
+    "webpack"
+  ],
+  "author": "zlx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhoulexing/zlx-build/issues"
+  },
+  "homepage": "https://github.com/zhoulexing/zlx-build#readme"
+}
