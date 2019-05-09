@@ -8,7 +8,11 @@ export default class LoginLayout extends PureComponent {
     }
 
     render() {
-        return <div className={ style.login }>login</div>;
+        return <div onClick={this.goIndex} className={ style.login }>goIndex</div>;
+    }
+
+    goIndex = () => {
+        
     }
 }
 
