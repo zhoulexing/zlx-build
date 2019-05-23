@@ -1,9 +1,21 @@
 App({
-  onLaunch: function () {
+  onLaunch: function (options) {
     // 存储日志
     const logs = wx.getStorageSync('logs') || [];
     logs.unshift(Date.now());
     wx.setStorageSync('logs', logs);
+
+    if(options.scene == 1007 || options.scene == 1008) {
+      this.globalData.share = true;
+    } else {
+      this.globalData.share = false;
+    }
+
+    wx.getSystemInfo({
+      success: res => {
+        this.globalData.height = res.statusBarHeight;
+      }
+    });
 
     // 登陆
     wx.login({
@@ -36,6 +48,8 @@ App({
   },
 
   globalData: {
-    userInfo: null
+    userInfo: null,
+    share: false,
+    height: 0,
   }
 })

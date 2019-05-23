@@ -3,6 +3,11 @@ const app = getApp();
 Page({
   data: {
     userInfo: {},
+    navbarData: {
+      showCapsule: 1, //是否现实在左上角， 1表示现实， 0表示不显示
+      title: "我的主页"
+    },
+    height: app.globalData.height,
   },
   onLoad: function () {
     if(app.globalData.userInfo) {
