@@ -81,11 +81,11 @@ gulp.task("js", () => {
             })
         )
         .pipe(isProd ? through.obj() : sourcemaps.init())
-        .pipe(
-            babel({
-                presets: ['env']
-            })
-        )
+        // .pipe(
+        //     babel({
+        //       presets: ['env']
+        //     })
+        // )
         .pipe(
             isProd
             ?

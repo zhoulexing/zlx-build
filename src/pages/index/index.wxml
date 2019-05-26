@@ -1,1 +1,10 @@
-<view class="intro">欢迎使用代码片段，可在控制台查看代码片段的说明和文档</view>
+<view class="intro">
+    <button 
+        wx:if="{{canIUse}}" 
+        class="auth-btn" 
+        open-type="getUserInfo"
+        lang="zh_CN"
+        bindgetuserinfo="onGetUserInfo"
+    >授权登录</button>
+    <view wx:else>请升级微信版本</view>
+</view>
